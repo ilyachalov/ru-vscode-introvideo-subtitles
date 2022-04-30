@@ -1,0 +1,267 @@
+1
+00:00:04,090 --> 00:00:07,687
+Hi there, today we'll talk about some of our productivity
+
+2
+00:00:07,750 --> 00:00:10,591
+tips and features in VS code. We want to make
+
+3
+00:00:10,654 --> 00:00:13,873
+it easy for you to get started, get comfortable and
+
+4
+00:00:13,936 --> 00:00:17,155
+get coding. The first thing we'll talk about is the
+
+5
+00:00:17,218 --> 00:00:20,879
+command palette. The command palette is the easiest way to
+
+6
+00:00:20,942 --> 00:00:24,287
+find something in BS code. If you're ever looking for
+
+7
+00:00:24,351 --> 00:00:27,128
+a feature or a shortcut or an action from an
+
+8
+00:00:27,191 --> 00:00:28,580
+extension, go to view.
+
+9
+00:00:30,130 --> 00:00:31,100
+Command palette.
+
+10
+00:00:32,420 --> 00:00:34,100
+Or use the keyboard shortcut.
+
+11
+00:00:35,390 --> 00:00:38,688
+In the command palette you'll also see the associated keyboard
+
+12
+00:00:38,741 --> 00:00:40,869
+shortcut for every command that has one.
+
+13
+00:00:42,740 --> 00:00:45,612
+Next I'll show you how to quick open a file
+
+14
+00:00:45,679 --> 00:00:49,420
+on Windows control. P will show you your recently opened
+
+15
+00:00:49,487 --> 00:00:52,426
+files and you can search for any file in the
+
+16
+00:00:52,493 --> 00:00:56,769
+repository you currently have open. Selecting the file will open
+
+17
+00:00:56,835 --> 00:00:59,374
+it in a new editor. You can also add a
+
+18
+00:00:59,441 --> 00:01:02,180
+colon after the name of a file and type A
+
+19
+00:01:02,247 --> 00:01:05,587
+line number and a new editor window will open. Add
+
+20
+00:01:05,654 --> 00:01:06,789
+that line number.
+
+21
+00:01:07,420 --> 00:01:09,844
+You can do the same thing with the @ to
+
+22
+00:01:09,906 --> 00:01:11,460
+go to a symbol in a file.
+
+23
+00:01:12,640 --> 00:01:15,965
+Type the question mark to view command to questions that
+
+24
+00:01:16,024 --> 00:01:17,390
+might be useful to you.
+
+25
+00:01:18,440 --> 00:01:22,331
+Repeat the quick open keyboard shortcut to cycle quickly between
+
+26
+00:01:22,392 --> 00:01:23,730
+recently opened files.
+
+27
+00:01:24,420 --> 00:01:27,472
+You can also open multiple files from quick open by
+
+28
+00:01:27,532 --> 00:01:31,003
+pressing the right arrow key. This will open the currently
+
+29
+00:01:31,063 --> 00:01:34,773
+selected file in the background and you can continue selecting
+
+30
+00:01:34,833 --> 00:01:36,150
+files from quick open.
+
+31
+00:01:37,640 --> 00:01:42,119
+Multi Cursor selection is another really useful editing feature on
+
+32
+00:01:42,187 --> 00:01:45,309
+Windows. You can all Click to add a new cursor
+
+33
+00:01:45,376 --> 00:01:46,869
+anywhere in your file.
+
+34
+00:01:47,820 --> 00:01:51,571
+You can also set cursors above or below your current
+
+35
+00:01:51,643 --> 00:01:55,611
+position using control alt up arrow or control Alt down
+
+36
+00:01:55,683 --> 00:02:00,083
+Arrow. You can even add additional cursors to all occurrences
+
+37
+00:02:00,155 --> 00:02:03,329
+of the current selection with shift control.
+
+38
+00:02:04,090 --> 00:02:07,810
+This is useful for editing or deleting multiple occurrences of
+
+39
+00:02:07,870 --> 00:02:09,310
+repeated code in a file.
+
+40
+00:02:10,530 --> 00:02:13,842
+This one's really simple, but I highly encourage you to
+
+41
+00:02:13,902 --> 00:02:16,009
+take a second to do it. Go to file.
+
+42
+00:02:17,900 --> 00:02:21,690
+Autosave and make sure you have autosave turned on.
+
+43
+00:02:23,730 --> 00:02:27,278
+A couple of other settings you can configure are format
+
+44
+00:02:27,343 --> 00:02:30,440
+on type and format on Paste set editor format on
+
+45
+00:02:30,504 --> 00:02:33,537
+type to true to auto format your text each time
+
+46
+00:02:33,602 --> 00:02:36,634
+you type A line. You can also set editor format
+
+47
+00:02:36,699 --> 00:02:39,860
+on paste to true to format your text whenever you
+
+48
+00:02:39,925 --> 00:02:41,989
+paste new text into your editor.
+
+49
+00:02:43,480 --> 00:02:47,703
+Finally, let's talk a little bit about Intellisense. Intellisense is
+
+50
+00:02:47,765 --> 00:02:51,367
+a general term for various code editing features like code
+
+51
+00:02:51,429 --> 00:02:54,845
+completion and quick info. It's provided out of the box
+
+52
+00:02:54,907 --> 00:02:58,013
+for some languages in VS code, but you can install
+
+53
+00:02:58,075 --> 00:03:02,733
+language extensions to have richer Intellisense for specific languages. Let
+
+54
+00:03:02,795 --> 00:03:05,901
+me show you an example with JavaScript. If I start
+
+55
+00:03:05,963 --> 00:03:08,820
+typing the name of a variable, it will show me
+
+56
+00:03:08,882 --> 00:03:12,236
+what variables are available in this file. If I select
+
+57
+00:03:12,298 --> 00:03:13,230
+one, then type.
+
+58
+00:03:13,419 --> 00:03:15,960
+I'll be given a list of all the properties and
+
+59
+00:03:16,015 --> 00:03:19,107
+methods accessible to that variable. I can pick a method
+
+60
+00:03:19,163 --> 00:03:21,703
+and go to add a parameter which will then show
+
+61
+00:03:21,758 --> 00:03:23,360
+me info about that parameter.
+
+62
+00:03:24,210 --> 00:03:27,241
+You can trigger and tell a sense in any editor
+
+63
+00:03:27,307 --> 00:03:30,997
+window by typing^ space or by typing a trigger character
+
+64
+00:03:31,063 --> 00:03:34,621
+such as the dot character in JavaScript. Check out our
+
+65
+00:03:34,687 --> 00:03:39,168
+Intellisense documentation for more in depth information. I hope you
+
+66
+00:03:39,234 --> 00:03:43,979
+enjoyed following along and learned something new. For more information,
+
+67
+00:03:44,044 --> 00:03:48,460
+check out our documentation at code.visualstudio.com. Happy coding.

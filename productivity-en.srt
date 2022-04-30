@@ -1,0 +1,370 @@
+1
+00:00:00,000 --> 00:00:03,000
+(upbeat music)
+
+2
+00:00:04,090 --> 00:00:07,687
+Hi there. Today we'll talk
+about some of our productivity
+
+3
+00:00:07,750 --> 00:00:09,591
+tips and features in VS code.
+
+4
+00:00:09,600 --> 00:00:13,873
+We want to make it easy
+for you to get started,
+
+5
+00:00:13,936 --> 00:00:16,000
+get comfortable, and get coding.
+
+6
+00:00:16,010 --> 00:00:18,879
+The first thing we'll talk
+about is the Command Palette.
+
+7
+00:00:18,942 --> 00:00:21,287
+The Command Palette is the
+easiest way to find something
+
+8
+00:00:21,942 --> 00:00:22,287
+in VS code.
+
+9
+00:00:22,942 --> 00:00:24,287
+If you're ever looking for
+a feature, or a shortcut,
+
+10
+00:00:24,351 --> 00:00:27,128
+or an action from an extension,
+
+11
+00:00:27,191 --> 00:00:28,580
+go to View,
+
+12
+00:00:30,130 --> 00:00:31,100
+Command Palette.
+
+13
+00:00:32,420 --> 00:00:34,100
+Or use the keyboard shortcut.
+
+14
+00:00:35,390 --> 00:00:36,688
+In the Command Palette,
+
+15
+00:00:36,790 --> 00:00:38,688
+you'll also see the
+associated keyboard shortcut
+
+16
+00:00:38,741 --> 00:00:40,869
+for every command that has one.
+
+17
+00:00:42,740 --> 00:00:45,612
+Next, I'll show you how
+to Quick Open a file.
+
+18
+00:00:45,679 --> 00:00:49,420
+On Windows Control P will show
+you your recently open files
+
+19
+00:00:49,487 --> 00:00:52,426
+and you can search for
+any file in the repository
+
+20
+00:00:52,493 --> 00:00:54,769
+you currently have open.
+
+21
+00:00:54,993 --> 00:00:57,769
+Selecting the file will
+open it in a new editor.
+
+22
+00:00:58,835 --> 00:01:02,180
+You can also add a colon (:)
+after the name of a file,
+
+23
+00:01:02,247 --> 00:01:05,587
+and type a line number, and
+a new editor window will open
+
+24
+00:01:05,654 --> 00:01:06,789
+at that line number.
+
+25
+00:01:07,420 --> 00:01:09,844
+You can do the same thing
+with the add (+) sign
+
+26
+00:01:09,906 --> 00:01:11,460
+to go to a symbol in a file.
+
+27
+00:01:12,640 --> 00:01:15,965
+Type the question mark (?)
+to view command suggestions
+
+28
+00:01:16,024 --> 00:01:17,390
+that might be useful to you.
+
+29
+00:01:18,440 --> 00:01:21,531
+Repeat the Quick Open keyboard shortcut
+
+30
+00:01:21,692 --> 00:01:23,730
+to cycle quickly between
+recently opened files.
+
+31
+00:01:24,420 --> 00:01:27,472
+You can also open multiple
+files from Quick Open
+
+32
+00:01:27,532 --> 00:01:30,003
+by pressing the right arrow key.
+
+33
+00:01:30,163 --> 00:01:32,773
+This will open the currently selected file
+
+34
+00:01:32,833 --> 00:01:35,550
+in the background and you
+can continue selecting files
+
+35
+00:01:35,633 --> 00:01:36,650
+from Quick Open.
+
+36
+00:01:37,640 --> 00:01:40,819
+Multi-cursor selection
+is another really useful
+
+37
+00:01:41,000 --> 00:01:42,119
+editing feature.
+
+38
+00:01:42,187 --> 00:01:45,309
+On Windows, you can Alt
+Click to add a new cursor
+
+39
+00:01:45,376 --> 00:01:46,869
+anywhere in your file.
+
+40
+00:01:47,820 --> 00:01:50,571
+You can also set cursors above or below
+
+41
+00:01:50,643 --> 00:01:54,000
+your current position
+using Control Alt Up Arrow
+
+42
+00:01:54,143 --> 00:01:56,000
+or Control Alt Down Arrow.
+
+43
+00:01:56,083 --> 00:02:00,083
+You can even add additional
+cursors to all occurrences
+
+44
+00:02:00,155 --> 00:02:03,329
+of the current selection
+with Shift Control L.
+
+45
+00:02:04,090 --> 00:02:07,810
+This is useful for editing or
+deleting multiple occurrences
+
+46
+00:02:07,870 --> 00:02:09,310
+of repeated code in a file.
+
+47
+00:02:10,530 --> 00:02:12,000
+This one's really simple
+
+48
+00:02:12,102 --> 00:02:15,009
+but I highly encourage you
+to take a second to do it.
+
+49
+00:02:15,102 --> 00:02:17,009
+Go to File,
+
+50
+00:02:17,900 --> 00:02:19,890
+Auto-Save
+
+51
+00:02:20,000 --> 00:02:21,690
+and make sure you have
+Auto-Save turned on.
+
+52
+00:02:23,730 --> 00:02:26,278
+A couple of other
+settings you can configure
+
+53
+00:02:26,443 --> 00:02:29,440
+are Format On Type and Format On Paste.
+
+54
+00:02:29,504 --> 00:02:33,537
+Set Editor Format On Type to
+True to auto format your text
+
+55
+00:02:33,602 --> 00:02:35,000
+each time you type a line.
+
+56
+00:02:35,102 --> 00:02:38,900
+You can also set Editor
+Format On Pace to True
+
+57
+00:02:38,999 --> 00:02:40,860
+to format your text
+whenever you paste new text
+
+58
+00:02:40,925 --> 00:02:41,989
+into your editor.
+
+59
+00:02:43,480 --> 00:02:46,703
+Finally, let's talk a little
+bit about IntelliSense.
+
+60
+00:02:46,765 --> 00:02:50,000
+IntelliSense is a general
+term for various code
+
+61
+00:02:50,165 --> 00:02:53,000
+editing features, like Code
+Completion and Quick Info.
+
+62
+00:02:53,059 --> 00:02:57,145
+It's provided out of the box
+for some languages in VS code.
+
+63
+00:02:57,200 --> 00:02:59,500
+But you can install language extensions
+
+64
+00:02:59,550 --> 00:03:02,733
+to richer IntelliSense
+for specific languages.
+
+65
+00:03:02,795 --> 00:03:05,001
+Let me show you an
+example with JavaScript.
+
+66
+00:03:05,063 --> 00:03:07,820
+If I start typing the name of a variable,
+
+67
+00:03:07,882 --> 00:03:11,000
+it will show me what variables
+are available in this file.
+
+68
+00:03:11,102 --> 00:03:13,230
+If I select one, then type period (.),
+
+69
+00:03:13,419 --> 00:03:15,960
+I'll be given a list of all the properties
+
+70
+00:03:16,015 --> 00:03:18,500
+and methods accessible to that variable.
+
+71
+00:03:18,600 --> 00:03:21,703
+I can pick a method and
+go to Add A Parameter,
+
+72
+00:03:21,758 --> 00:03:23,360
+which will then show me
+info about that parameter.
+
+73
+00:03:24,210 --> 00:03:27,241
+You can trigger IntelliSense
+in any editor window
+
+74
+00:03:27,307 --> 00:03:30,997
+by typing carrot space (^ ) or
+by typing a trigger character
+
+75
+00:03:31,063 --> 00:03:34,621
+such as the dot (.)
+character in JavaScript.
+
+76
+00:03:34,687 --> 00:03:36,000
+Check out our IntelliSense documentation
+
+77
+00:03:36,187 --> 00:03:39,168
+for more in-depth information.
+
+78
+00:03:39,234 --> 00:03:42,000
+I hope you enjoyed following
+along and learn something new.
+
+79
+00:03:42,134 --> 00:03:43,979
+For more information,
+
+80
+00:03:44,044 --> 00:03:48,000
+check out our documentation
+@code.visualstudio.com.
+
+81
+00:03:48,044 --> 00:03:48,460
+Happy coding!
+
+82
+00:03:49,000 --> 00:03:51,000
+(upbeat music)
