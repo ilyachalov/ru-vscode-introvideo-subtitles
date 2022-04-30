@@ -109,7 +109,7 @@ at that line number.
 25
 00:01:07,420 --> 00:01:09,844
 You can do the same thing
-with the add (+) sign
+with the at (@) sign
 
 26
 00:01:09,906 --> 00:01:11,460
@@ -247,8 +247,8 @@ each time you type a line.
 
 56
 00:02:35,102 --> 00:02:38,900
-You can also set Editor
-Format On Pace to True
+You can also set 'Editor:
+Format On Paste' to 'True'
 
 57
 00:02:38,999 --> 00:02:40,860
@@ -331,7 +331,7 @@ in any editor window
 
 74
 00:03:27,307 --> 00:03:30,997
-by typing carrot space (^ ) or
+by typing caret space (^ ) or
 by typing a trigger character
 
 75
