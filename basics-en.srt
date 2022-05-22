@@ -1,0 +1,543 @@
+1
+00:00:03,999 --> 00:00:06,998
+This is Visual Studio Code, a lightweight but powerful code editor.
+
+2
+00:00:06,999 --> 00:00:09,998
+In the next few minutes, I'm going to start
+
+3
+00:00:09,999 --> 00:00:12,998
+from scratch so you can follow along and we're going
+
+4
+00:00:12,999 --> 00:00:15,998
+to write and execute some code in JavaScript, Python and
+
+5
+00:00:15,999 --> 00:00:18,998
+HTML. And along the way, explore the features of this
+
+6
+00:00:18,999 --> 00:00:22,998
+code editor. Once installed and launched, the first thing
+
+7
+00:00:22,999 --> 00:00:24,998
+that I want to do is show you how to
+
+8
+00:00:24,999 --> 00:00:27,998
+open a folder to set your workspace, which you can
+
+9
+00:00:27,999 --> 00:00:30,998
+just do by going through this folder icon here and
+
+10
+00:00:30,999 --> 00:00:33,898
+clicking open. Or you can use the shortcut and in
+
+11
+00:00:33,899 --> 00:00:33,998
+my case.
+
+12
+00:00:33,999 --> 00:00:36,998
+That's command O. Now, I know that I want my
+
+13
+00:00:36,999 --> 00:00:39,998
+workspace to be in my documents folder under getting started,
+
+14
+00:00:39,999 --> 00:00:42,998
+so all I have to do is highlight that folder
+
+15
+00:00:42,999 --> 00:00:45,998
+and click open on the left hand corner, you'll see
+
+16
+00:00:45,999 --> 00:00:48,998
+under explorer my folder name getting started and any files
+
+17
+00:00:48,999 --> 00:00:51,998
+that I have under there which is currently none. Now
+
+18
+00:00:51,999 --> 00:00:54,998
+that we've got a folder open, let's take a quick
+
+19
+00:00:54,999 --> 00:00:57,998
+look at the editors so you know the purpose of
+
+20
+00:00:57,999 --> 00:01:00,998
+some of these buttons and sections. On the far left
+
+21
+00:01:00,999 --> 00:01:02,998
+is the activity bar and the first icon is for
+
+22
+00:01:02,999 --> 00:01:03,998
+the explorer.
+
+23
+00:01:03,999 --> 00:01:07,998
+To see your folders and files, below is a magnifying
+
+24
+00:01:07,999 --> 00:01:10,998
+glass to search, find and replace text in files across
+
+25
+00:01:10,999 --> 00:01:14,998
+your whole workspace. Then there's source control to track changes
+
+26
+00:01:14,999 --> 00:01:17,998
+in code with Git and GitHub. Next is run and
+
+27
+00:01:17,999 --> 00:01:21,998
+debug to execute code and debug it using breakpoints. The
+
+28
+00:01:21,999 --> 00:01:25,998
+extension marketplace to add additional features to our code editor
+
+29
+00:01:25,999 --> 00:01:28,998
+and then a couple of icons for your account and
+
+30
+00:01:28,999 --> 00:01:31,998
+to manage settings. But at the very top center we
+
+31
+00:01:31,999 --> 00:01:34,998
+have our command palette which you can go to
+
+32
+00:01:34,999 --> 00:01:36,998
+View and select it as your first option or use
+
+33
+00:01:36,999 --> 00:01:40,998
+the shortcut. The command palette is very important as it
+
+34
+00:01:40,999 --> 00:01:43,998
+is the Control Center for all commands in Visual Studio Code
+
+35
+00:01:43,999 --> 00:01:46,998
+At the bottom of the screen is the status
+
+36
+00:01:46,999 --> 00:01:48,998
+bar, where on the left we'll see a number of
+
+37
+00:01:48,999 --> 00:01:51,998
+errors or warnings and on the right the current line
+
+38
+00:01:51,999 --> 00:01:55,998
+number and programming language right above that is a panel
+
+39
+00:01:55,999 --> 00:01:59,998
+for output or debug information, problem details and an integrated
+
+40
+00:01:59,999 --> 00:02:02,998
+terminal. So let's go ahead and create a new file.
+
+41
+00:02:02,999 --> 00:02:04,998
+I can go over here and select new file.
+
+42
+00:02:04,999 --> 00:02:08,998
+Or hit command and quickly notice at the bottom right
+
+43
+00:02:08,999 --> 00:02:12,998
+hand corner it says plain text. But once I start
+
+44
+00:02:12,999 --> 00:02:17,998
+typing console dot log, open parentheses, immediately it notices its JavaScript and
+
+45
+00:02:17,999 --> 00:02:22,998
+at this point once I start writing anything else, Intellisense
+
+46
+00:02:22,999 --> 00:02:25,998
+is going to kick in. I write CON and it's
+
+47
+00:02:25,999 --> 00:02:29,998
+like, oh, you want to write confirm console? It's trying
+
+48
+00:02:29,999 --> 00:02:33,998
+to predict exactly what I want to write. I hit
+
+49
+00:02:33,999 --> 00:02:35,998
+the dot, the letter L.
+
+50
+00:02:35,999 --> 00:02:38,998
+Do you want to write log? Yeah, it's reading my
+
+51
+00:02:38,999 --> 00:02:42,998
+mind practically, this is Intellisense. It's that smart completion. All
+
+52
+00:02:42,999 --> 00:02:45,998
+I'll write is rise and shine. And on the next
+
+53
+00:02:45,999 --> 00:02:48,998
+line, ready for a new day. And if I hit
+
+54
+00:02:48,999 --> 00:02:51,998
+command+S, I will save my file as jsSample.js
+
+55
+00:02:51,999 --> 00:02:54,998
+and hit save and you know you need to
+
+56
+00:02:54,999 --> 00:02:57,998
+save whenever it's a change made because if I hit
+
+57
+00:02:57,999 --> 00:03:01,998
+the spacebar here, you'll see that there's a dot that
+
+58
+00:03:01,999 --> 00:03:03,998
+shows up, which means I need to save and if
+
+59
+00:03:03,999 --> 00:03:05,998
+I want to have to avoid.
+
+60
+00:03:05,999 --> 00:03:08,998
+Having to save every single time I can go to
+
+61
+00:03:08,999 --> 00:03:11,998
+file, autosave and any little change that I make, it
+
+62
+00:03:11,999 --> 00:03:14,998
+immediately saves it and now to execute our code I
+
+63
+00:03:14,999 --> 00:03:16,998
+hit F5 and as you can see below, rise and
+
+64
+00:03:16,999 --> 00:03:19,998
+shine ready for a new day.
+
+65
+00:03:19,999 --> 00:03:23,998
+Now let's write something in Python. I'll create a new
+
+66
+00:03:23,999 --> 00:03:26,998
+file command+n and I will save it as pythonSample.py
+
+67
+00:03:26,999 --> 00:03:29,998
+So, Visual Studio Code at the bottom right hand
+
+68
+00:03:29,999 --> 00:03:33,998
+corner notices that it's Python, but if I start actually
+
+69
+00:03:33,999 --> 00:03:37,998
+writing code, you'll notice that I don't have that Intellisense,
+
+70
+00:03:37,999 --> 00:03:41,998
+and in fact I could write almost anything here, and
+
+71
+00:03:41,999 --> 00:03:44,998
+it's not giving me any type of warning. So for
+
+72
+00:03:44,999 --> 00:03:48,998
+language like Python, extra support is needed, and that's where
+
+73
+00:03:48,999 --> 00:03:50,998
+we could use an extension.
+
+74
+00:03:50,999 --> 00:03:53,998
+Which is the first one recommended here? So now it's
+
+75
+00:03:53,999 --> 00:03:57,998
+installing and it will give us Intellisense, Linting which is
+
+76
+00:03:57,999 --> 00:04:01,998
+going to give us that squiggly line whenever there is
+
+77
+00:04:01,999 --> 00:04:04,998
+an error debugging and some more capabilities. So now
+
+78
+00:04:04,999 --> 00:04:07,998
+if I start writing I get that Intellisense and I
+
+79
+00:04:07,999 --> 00:04:11,998
+can finish writing my statement and if I put in
+
+80
+00:04:11,999 --> 00:04:14,998
+some nonsense here it will give me a warning and
+
+81
+00:04:14,999 --> 00:04:16,998
+now I can add some more code to execute it
+
+82
+00:04:16,999 --> 00:04:20,998
+by hitting F5.
+
+83
+00:04:20,999 --> 00:04:23,998
+Python has entered the building or I could also execute
+
+84
+00:04:23,999 --> 00:04:28,998
+it by hitting this run button here.
+
+85
+00:04:28,999 --> 00:04:33,998
+Now, how about demonstrating something with HTML so instead of
+
+86
+00:04:33,999 --> 00:04:37,998
+creating a new file, what I do want to demonstrate
+
+87
+00:04:37,999 --> 00:04:40,998
+is that you can just bring in a file into
+
+88
+00:04:40,999 --> 00:04:44,998
+the Explorer section. So if I go and choose Explorer,
+
+89
+00:04:44,999 --> 00:04:48,998
+I already have some prepared HTML that I'm going to
+
+90
+00:04:48,999 --> 00:04:51,998
+drag in from another folder, and when I drop it,
+
+91
+00:04:51,999 --> 00:04:55,998
+a copy of this file will be created into my
+
+92
+00:04:55,999 --> 00:04:59,998
+workspace under getting started. And here is just some simple
+
+93
+00:04:59,999 --> 00:05:00,998
+HTML.
+
+94
+00:05:00,999 --> 00:05:03,998
+Now with HTML, we can't execute it from the terminal,
+
+95
+00:05:03,999 --> 00:05:06,998
+but what we can do is use an extension that
+
+96
+00:05:06,999 --> 00:05:10,998
+will open a browser preview right in Visual Studio code
+
+97
+00:05:10,999 --> 00:05:13,998
+next to your HTML and CSS, and that extension is
+
+98
+00:05:13,999 --> 00:05:17,998
+called Live Preview and we want the one specifically by
+
+99
+00:05:17,999 --> 00:05:21,998
+Microsoft which is the first one here. So I'll install
+
+100
+00:05:21,999 --> 00:05:24,998
+that, head back to the explorer and now all I
+
+101
+00:05:24,999 --> 00:05:26,998
+need to do is right click on my HTML file,
+
+102
+00:05:26,999 --> 00:05:30,998
+select show preview and there you have it within
+
+103
+00:05:30,999 --> 00:05:34,998
+Visual Studio Code. Now this version doesn't seem too attractive
+
+104
+00:05:34,999 --> 00:05:37,998
+because there's no styling to it. I do have another
+
+105
+00:05:37,999 --> 00:05:40,998
+example. I can go ahead and drop in and this
+
+106
+00:05:40,999 --> 00:05:43,998
+includes some bootstrap styling and I'll do the same. Right
+
+107
+00:05:43,999 --> 00:05:47,998
+Click show preview. This looks a little bit better. I'll
+
+108
+00:05:47,999 --> 00:05:50,998
+hit command+minus so you could have a better view.
+
+109
+00:05:50,999 --> 00:05:53,998
+And what's great about this is you can make some
+
+110
+00:05:53,999 --> 00:05:56,998
+changes and you'll see the results on the fly and
+
+111
+00:05:56,999 --> 00:06:00,898
+that is great. I'll increase my screen again hitting
+
+112
+00:06:00,899 --> 00:06:00,998
+command+plus.
+
+113
+00:06:00,999 --> 00:06:03,998
+The last thing that I want to show you is
+
+114
+00:06:03,999 --> 00:06:07,998
+that VS Code is extremely customizable not only with functionality
+
+115
+00:06:07,999 --> 00:06:10,998
+features but also with the way that it looks by
+
+116
+00:06:10,999 --> 00:06:13,998
+changing themes. So for example, if I were to go
+
+117
+00:06:13,999 --> 00:06:17,998
+to the command palette which we mentioned earlier by hitting
+
+118
+00:06:17,999 --> 00:06:20,998
+command+shift+P and I typed in theme, I can
+
+119
+00:06:20,999 --> 00:06:23,998
+choose color themes and start scrolling up and down through
+
+120
+00:06:23,999 --> 00:06:27,998
+the different themes that are available. and if you don't
+
+121
+00:06:27,999 --> 00:06:30,998
+see what you like, there's an option for browse additional
+
+122
+00:06:30,999 --> 00:06:31,998
+color themes.
+
+123
+00:06:31,999 --> 00:06:34,998
+You can choose that and search for a lot
+
+124
+00:06:34,999 --> 00:06:38,998
+more that's available online, and you could scroll through a
+
+125
+00:06:38,999 --> 00:06:41,998
+bunch of these. Or, if you already know the name
+
+126
+00:06:41,999 --> 00:06:44,998
+of your theme, you can just search by just typing
+
+127
+00:06:44,999 --> 00:06:47,998
+it in. Like I know one that's called night owl.
+
+128
+00:06:47,999 --> 00:06:50,998
+I'll choose a first and see how everything looks with
+
+129
+00:06:50,999 --> 00:06:52,998
+my new theme. So I just showed you how easy
+
+130
+00:06:52,999 --> 00:06:56,998
+it is to execute some code in Python, JavaScript and
+
+131
+00:06:56,999 --> 00:06:59,998
+HTML using Visual Studio code. And also we explored some
+
+132
+00:06:59,999 --> 00:07:01,998
+of its features like Intellisense,
+
+133
+00:07:01,999 --> 00:07:05,998
+the extension marketplace and also how to customize it with themes,
+
+134
+00:07:05,999 --> 00:07:09,998
+but that barely scratches the surface, so to learn more
+
+135
+00:07:09,999 --> 00:07:12,998
+about Visual Studio code, subscribe to the channel and also
+
+136
+00:07:12,999 --> 00:07:16,299
+check out the links in the description for this video.

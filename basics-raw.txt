@@ -1,0 +1,272 @@
+0:03
+This is Visual Studio Code, a lightweight but powerful code editor.
+0:06
+In the next few minutes, I'm going to start
+0:09
+from scratch so you can follow along and we're going
+0:12
+to write and execute some code in JavaScript, Python and
+0:15
+HTML. And along the way, explore the features of this
+0:18
+code editor. Once installed and launched, the first thing
+0:22
+that I want to do is show you how to
+0:24
+open a folder to set your workspace, which you can
+0:27
+just do by going through this folder icon here and
+0:30
+clicking open. Or you can use the shortcut and in
+0:33
+my case.
+0:33
+That's command O. Now, I know that I want my
+0:36
+workspace to be in my documents folder under getting started,
+0:39
+so all I have to do is highlight that folder
+0:42
+and click open on the left hand corner, you'll see
+0:45
+under explorer my folder name getting started and any files
+0:48
+that I have under there which is currently none. Now
+0:51
+that we've got a folder open, let's take a quick
+0:54
+look at the editors so you know the purpose of
+0:57
+some of these buttons and sections. On the far left
+1:00
+is the activity bar and the first icon is for
+1:02
+the explorer.
+1:03
+To see your folders and files, below is a magnifying
+1:07
+glass to search, find and replace text in files across
+1:10
+your whole workspace. Then there's source control to track changes
+1:14
+in code with Git and GitHub. Next is run and
+1:17
+debug to execute code and debug it using breakpoints. The
+1:21
+extension marketplace to add additional features to our code editor
+1:25
+and then a couple of icons for your account and
+1:28
+to manage settings. But at the very top center we
+1:31
+have our command palette which you can go to
+1:34
+View and select it as your first option or use
+1:36
+the shortcut. The command palette is very important as it
+1:40
+is the Control Center for all commands in Visual Studio Code
+1:43
+At the bottom of the screen is the status
+1:46
+bar, where on the left we'll see a number of
+1:48
+errors or warnings and on the right the current line
+1:51
+number and programming language right above that is a panel
+1:55
+for output or debug information, problem details and an integrated
+1:59
+terminal. So let's go ahead and create a new file.
+2:02
+I can go over here and select new file.
+2:04
+Or hit command and quickly notice at the bottom right
+2:08
+hand corner it says plain text. But once I start
+2:12
+typing console dot log, open parentheses, immediately it notices its JavaScript and
+2:17
+at this point once I start writing anything else, Intellisense
+2:22
+is going to kick in. I write CON and it's
+2:25
+like, oh, you want to write confirm console? It's trying
+2:29
+to predict exactly what I want to write. I hit
+2:33
+the dot, the letter L.
+2:35
+Do you want to write log? Yeah, it's reading my
+2:38
+mind practically, this is Intellisense. It's that smart completion. All
+2:42
+I'll write is rise and shine. And on the next
+2:45
+line, ready for a new day. And if I hit
+2:48
+command+S, I will save my file as jsSample.js
+2:51
+and hit save and you know you need to
+2:54
+save whenever it's a change made because if I hit
+2:57
+the spacebar here, you'll see that there's a dot that
+3:01
+shows up, which means I need to save and if
+3:03
+I want to have to avoid.
+3:05
+Having to save every single time I can go to
+3:08
+file, autosave and any little change that I make, it
+3:11
+immediately saves it and now to execute our code I
+3:14
+hit F5 and as you can see below, rise and
+3:16
+shine ready for a new day.
+3:19
+Now let's write something in Python. I'll create a new
+3:23
+file command+n and I will save it as pythonSample.py
+3:26
+So, Visual Studio Code at the bottom right hand
+3:29
+corner notices that it's Python, but if I start actually
+3:33
+writing code, you'll notice that I don't have that Intellisense,
+3:37
+and in fact I could write almost anything here, and
+3:41
+it's not giving me any type of warning. So for
+3:44
+language like Python, extra support is needed, and that's where
+3:48
+we could use an extension.
+3:50
+Which is the first one recommended here? So now it's
+3:53
+installing and it will give us Intellisense, Linting which is
+3:57
+going to give us that squiggly line whenever there is
+4:01
+an error debugging and some more capabilities. So now
+4:04
+if I start writing I get that Intellisense and I
+4:07
+can finish writing my statement and if I put in
+4:11
+some nonsense here it will give me a warning and
+4:14
+now I can add some more code to execute it
+4:16
+by hitting F5.
+4:20
+Python has entered the building or I could also execute
+4:23
+it by hitting this run button here.
+4:28
+Now, how about demonstrating something with HTML so instead of
+4:33
+creating a new file, what I do want to demonstrate
+4:37
+is that you can just bring in a file into
+4:40
+the Explorer section. So if I go and choose Explorer,
+4:44
+I already have some prepared HTML that I'm going to
+4:48
+drag in from another folder, and when I drop it,
+4:51
+a copy of this file will be created into my
+4:55
+workspace under getting started. And here is just some simple
+4:59
+HTML.
+5:00
+Now with HTML, we can't execute it from the terminal,
+5:03
+but what we can do is use an extension that
+5:06
+will open a browser preview right in Visual Studio code
+5:10
+next to your HTML and CSS, and that extension is
+5:13
+called Live Preview and we want the one specifically by
+5:17
+Microsoft which is the first one here. So I'll install
+5:21
+that, head back to the explorer and now all I
+5:24
+need to do is right click on my HTML file,
+5:26
+select show preview and there you have it within
+5:30
+Visual Studio Code. Now this version doesn't seem too attractive
+5:34
+because there's no styling to it. I do have another
+5:37
+example. I can go ahead and drop in and this
+5:40
+includes some bootstrap styling and I'll do the same. Right
+5:43
+Click show preview. This looks a little bit better. I'll
+5:47
+hit command+minus so you could have a better view.
+5:50
+And what's great about this is you can make some
+5:53
+changes and you'll see the results on the fly and
+5:56
+that is great. I'll increase my screen again hitting
+6:00
+command+plus.
+6:00
+The last thing that I want to show you is
+6:03
+that VS Code is extremely customizable not only with functionality
+6:07
+features but also with the way that it looks by
+6:10
+changing themes. So for example, if I were to go
+6:13
+to the command palette which we mentioned earlier by hitting
+6:17
+command+shift+P and I typed in theme, I can
+6:20
+choose color themes and start scrolling up and down through
+6:23
+the different themes that are available. and if you don't
+6:27
+see what you like, there's an option for browse additional
+6:30
+color themes.
+6:31
+You can choose that and search for a lot
+6:34
+more that's available online, and you could scroll through a
+6:38
+bunch of these. Or, if you already know the name
+6:41
+of your theme, you can just search by just typing
+6:44
+it in. Like I know one that's called night owl.
+6:47
+I'll choose a first and see how everything looks with
+6:50
+my new theme. So I just showed you how easy
+6:52
+it is to execute some code in Python, JavaScript and
+6:56
+HTML using Visual Studio code. And also we explored some
+6:59
+of its features like Intellisense,
+7:01
+the extension marketplace and also how to customize it with themes,
+7:05
+but that barely scratches the surface, so to learn more
+7:09
+about Visual Studio code, subscribe to the channel and also
+7:12
+check out the links in the description for this video.
