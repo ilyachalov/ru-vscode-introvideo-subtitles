@@ -1,5 +1,5 @@
 # ru-vscode-introvideo-subtitles
-Пример открытых субтитров (с переводом на русский язык) к [вводным видео](https://code.visualstudio.com/docs/getstarted/introvideos) в [документации](https://code.visualstudio.com/docs) к редактору «Visual Studio Code». Субтитры выложены в формате [SRT](https://en.wikipedia.org/wiki/SubRip#SubRip_file_format), в кодировке UTF-8, окончания строк формата «Windows» (CR LF).
+Пример [скрытых субтитров](https://ru.wikipedia.org/wiki/Скрытые_субтитры) (с переводом на русский язык) к [вводным видео](https://code.visualstudio.com/docs/getstarted/introvideos) в [документации](https://code.visualstudio.com/docs) к редактору «Visual Studio Code». Субтитры выложены в формате [SRT](https://en.wikipedia.org/wiki/SubRip#SubRip_file_format), в кодировке UTF-8, окончания строк формата «Windows» (CR LF).
 
 ## Метка BOM
 
